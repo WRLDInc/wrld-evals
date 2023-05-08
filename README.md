@@ -1,4 +1,5 @@
 # Evals
+Going to be custom evals for GPT-4 for smart home automation and other things.
 
 Evals is a framework for evaluating LLMs (large language models) or systems built using LLMs as components. It also includes an open-source registry of challenging evals.
 
