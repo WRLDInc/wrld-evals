@@ -54,7 +54,7 @@ If you are going to be creating evals, we suggest cloning this repo directly fro
 ```sh
 pip install -e .
 ```
-
+Done
 Using `-e`, changes you make to your eval will be reflected immediately without having to reinstall.
 
 ### Running evals
