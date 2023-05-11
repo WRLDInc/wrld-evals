@@ -10,6 +10,13 @@ import random
 from multiprocessing.pool import ThreadPool
 from typing import Any, Awaitable, Callable, Dict, List, Optional, Tuple
 
+from dotenv import load_dotenv
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# Get the OpenAI API key from the environment variable
+openai_api_key = os.getenv("OPENAI_API_KEY")
 from tqdm import tqdm
 
 from evals.api import CompletionFn
